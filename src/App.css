@@ -55,3 +55,9 @@ body {
 .sliderDiv{
   width: 100%;
 }
+
+@font-face {
+  font-family: myFont;
+  src: url(./font/MokotoGlitch.ttf);
+}
+
