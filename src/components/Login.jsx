@@ -64,10 +64,10 @@ return(
 
         <div className='Body'>
             <div className='bgTextLogo'>
-             <img style={{width:'350px',height:"250px",verticalAlign: "middle"}} src={bgText}/>
-             <img style={{width:'350px',verticalAlign: "middle",marginLeft:"30%"}} src={bgLogo}/>
+             <img className='loginBodyLogo' src={bgText}/>
+             <img className='loginBodyLogo'  src={bgLogo}/>
             </div>
-            <img onClick={()=>{onConnect()}} className='connectBtn' style={{width:"20%"}} src={Connect}/>
+            <img onClick={()=>{onConnect()}} className='connectBtn' src={Connect}/>
         </div>
 
         </div>

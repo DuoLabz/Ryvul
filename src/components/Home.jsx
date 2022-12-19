@@ -28,8 +28,9 @@ return(
             <div className='navBarComponent'>
                 <img className='navBarLogo' src={navBarLogo}/>
                 <img style={{width:"200px",top:"30px",position:"absolute"}} className='navBarLogo' src={navBarText}/>
-                <img onClick={()=>{onDisconnect()}} className='connectBtn' style={{width:"150px",position:"absolute",top:"15px",right:"-80px"}} src={Disconnect}/>
+                <img onClick={()=>{onDisconnect()}} className='disconnectBtn' src={Disconnect}/>
             </div>
+            <img onClick={()=>{onDisconnect()}} className='disconnectBtnResponsive' src={Disconnect}/>
         </div>
 
         <div className='Body'>
